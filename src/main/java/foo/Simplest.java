@@ -6,6 +6,7 @@ package foo;
 public class Simplest {
 
     public String name;
+    public int a;
 
     public static int add(int a, int b) {
     	int result = a + b;
