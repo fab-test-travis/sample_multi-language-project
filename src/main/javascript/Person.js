@@ -9,6 +9,7 @@ var Person = function(first, last, middle) {
 Person.prototype = {
 
     whoAreYou : function() {
+        alert('bar');
         return this.first + (this.middle ? ' ' + this.middle: '') + ' ' + this.last;
     }
 
