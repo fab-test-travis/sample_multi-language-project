@@ -10,6 +10,7 @@ Person.prototype = {
 
     whoAreYou : function() {
         alert('bar');
+        alert('boum');
         return this.first + (this.middle ? ' ' + this.middle: '') + ' ' + this.last;
     }
 
