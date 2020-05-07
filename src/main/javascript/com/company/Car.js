@@ -4,6 +4,8 @@ var Car = function(brand, model, year) {
 	this.year = year;
 	this.engineState = 'stopped';
 	this.messageToDriver = '';
+	if (1==1) {
+	}
 };
 
 Car.prototype = {
